@@ -491,11 +491,12 @@ body{
     }
 
     @media screen and (max-width: 767px) {
-        .accordion-button {
-          margin-left: 5px;
-          margin-right: 5px;
-        }
-      }
+  .accordion {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}   
+    
 
 
    
