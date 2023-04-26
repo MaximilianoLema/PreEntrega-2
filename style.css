@@ -1,0 +1,455 @@
+html{
+    margin: 0;
+    padding: 0;
+    background-color: #F7F7F7;
+    
+}
+body{
+    background-color: #F7F7F7;
+}
+/* Header */
+.header{
+    background-color: #F7F7F7;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 110px ;
+    width: 100%;
+    z-index: 999;
+
+}
+
+.caja-vacia{
+    width: 100px;
+    height: 100px;
+}
+
+.nav-loginsignin{
+    margin-top: 20px;
+    width: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Nunito Sans', sans-serif; 
+    font-size:20px ;
+    
+}
+
+.login,.signin{
+    padding: 7px;
+    background-color: #F9BD1A;
+    border: 1px solid #F9BD1A;
+    text-decoration: none;
+    border-radius: 15px;
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.5);
+    color: black;
+}
+
+.signin:hover{
+    color: white;
+}
+
+.signin:active{
+    box-shadow: inset 0px 2px 5px rgba(0,0,0,0.5);
+    transform: translateY(2px);
+}
+
+.login:hover{
+    color: white;
+}
+.login:active{
+    box-shadow: inset 0px 2px 5px rgba(0,0,0,0.5);
+    transform: translateY(2px);
+}
+
+
+.contenedor-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.logo{
+    width: 450px;
+}
+
+/* Fin Header */
+
+/* Barra horizontal de links */
+
+.section-links {
+    
+    display: flex;
+    justify-content: center;
+    background-color: #F7F7F7;
+    padding: 20px;
+    margin-top: 110px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    }
+
+.nav-links {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    margin-top: 5px;
+    }
+
+.ul-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    padding-right: 100px;
+    margin: 10px;
+    }
+  
+  .lista-links{
+    background-color: #F9BD1A;
+    border: 1px solid #F9BD1A;
+    padding: 10px;
+    margin: 0 60px;
+    margin-right: 10px;
+    border-radius: 15px; /* agrega bordes redondeados */
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.3); /* agrega sombra */
+    text-decoration: none;
+    }
+
+  .lista-links .texto-links {
+    display: block;
+    background-color: #F9BD1A;
+    }
+
+  .texto-links {  
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Nunito Sans', sans-serif; 
+    color: black;
+    text-decoration: none;
+    }
+
+    .texto-links:hover{
+        text-decoration: underline;
+
+    }
+
+    /* Fin Barra horizontal de links */
+
+    /* Productos mas vendidos */
+
+    .descripcion{
+        overflow: hidden;
+    }
+
+    .seccion-productos{
+        background-color: #F7F7F7;
+        /* width: 1562.670px; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 220px;
+        margin-left: 267px;
+        margin-right: 120px;
+    }
+
+    .titulo-productos{
+        /* margin: 0px 100px ; */
+        font-family: 'Nunito', sans-serif;
+        font-family: 'Nunito Sans', sans-serif;
+    }
+    
+      .nav-productos {
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content:center;
+        justify-content: left;
+        
+      }
+      
+      .lista-productos {
+        position: relative;
+        width: 20em;
+        height: 30em;
+        display: inline-block;
+        align-items: center;
+        margin: 10px;
+        /* padding: 20px; */
+        vertical-align: top;
+        box-sizing: border-box;
+        /* overflow: hidden;   Propiedad buscada en internet */
+        border: 1px solid rgb(255, 255, 255);
+        text-align: center;
+        border-radius: 4px; 
+        box-shadow: 5px 5px 8px rgba(0,0,0,0.1);
+        /* margin-bottom: 25px;
+        padding: 10px; */
+        }
+    
+        .lista-productos img{
+            width: 260px;
+            height: 260px;
+            margin-bottom: 20px;
+
+        }
+
+        .lista-productos h4{
+            margin-top: 0px;
+            display: flex;
+            align-items: center;
+            font-family: 'Nunito Sans', sans-serif;
+            text-align: start;
+            font-size: 1.2rem;
+            text-decoration: none;
+            margin-bottom:10px ;
+        }
+        .lista-productos .descripcion{
+            margin-left: 22px;
+            display: flex;
+            width: 260px;
+            height: 150px;
+            position: absolute;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .lista-productos .precio-boton{
+            width: 260px;
+            height: 150px;
+            display: flex;
+            justify-content: space-between;
+            align-items:center;
+        }
+
+        .lista-productos .boton{
+            color: #333333;
+            text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.6) ;
+            background-color: #fffefe;
+            border: 2.5px solid #FFD700;
+            padding: 10px;
+            margin-right: 10px;
+            border-radius: 7px; /* agrega bordes redondeados */
+            box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6); /* agrega sombra */
+            text-decoration: none;
+            font-family: 'Nunito Sans', sans-serif;
+            }
+        
+        .lista-productos .boton:hover{
+            background-color: #FFD700;
+            border-color: #FFD700;
+            transition: background-color 0.2s ease;
+        }
+
+        .lista-productos .boton:active{
+            box-shadow: inset 0px 3px 5px rgba(0, 0, 0, 0.2);
+            transform: translateY(2px);
+        }
+
+        .precio{
+            font-family: 'Lato', sans-serif;
+            font-weight: bold;
+            font-size: 1.2rem;
+        }
+
+        /* Fin lista de productos */
+
+        /* FOOTER */
+
+        footer{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 50px 120px;
+            width: auto;
+            height: 200px;
+            
+            border-top:2px solid black;
+        }
+
+        .izquierda{
+            margin-top: 100px;
+            display: flex;
+            flex-direction: column;
+            /* justify-content: center; */
+            align-items: center;
+            width: 20%;
+            height: 100%;
+            font-family: 'Nunito Sans', sans-serif;
+        }
+        .izquierda h3{
+            margin-bottom: 20px;
+            }
+
+        .centro{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            width: 30%;
+            height: 100%;
+        }
+
+        .logo-instagram{
+            width: 50px;
+            height: 50px;
+        }
+        .logo-instagram:active{
+            transform:scale(90%)
+        }
+
+        .logo-youtube{
+            width: 50px;
+            height: 50px;
+        }
+        .logo-youtube:active{
+            transform:scale(90%)
+        }
+
+        .logo-facebook{
+            width: 50px;
+            height: 50px;
+        }
+        .logo-facebook:active{
+            transform:scale(90%)
+        }
+
+        .derecha{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 20%;
+            height: 100%;
+        }
+
+        .logo-sin-nombre{
+            width: 140px;
+            height: auto;
+        }
+
+    /* Seccion de compra CON GRID - NECESITO PRACTICA */
+
+
+    .section-compras{
+        display: flex;
+        justify-content: center;
+        margin-top: 300px;
+
+
+    }
+    .container-compra {
+        /* border: 1px solid black;   */
+        display: grid;
+        grid-template-columns: 1fr 40%;
+        grid-auto-columns: 1fr;
+        grid-auto-rows: 1fr;
+        gap: 0px 30px;
+        grid-auto-flow: row;
+        width: 1000px;
+        height: 600px;
+      }
+      
+      .descripcion-compra-container {  
+        padding: 15px;
+        /* border: 1px solid black;   */
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 35%;
+        grid-auto-columns: 1fr;
+        gap: 10px 0px;
+        grid-auto-flow: row;
+        grid-area: 1 / 2 / 2 / 3;
+      }
+      
+      .imagen-compra-container { 
+        /* border: 1px solid black;   */
+        
+        
+        grid-area: 1 / 1 / 2 / 2; 
+    }
+
+    .imagen-compra{
+        width: 100%;
+        height: 90%;
+    }
+      
+    .titulos-compras{
+        border-bottom: #333333;
+        grid-template-areas: descripcion;
+        min-height: 165px;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        font-family: 'Nunito Sans', sans-serif;
+        font-weight: bold;
+    }
+    .precio-compra-texto{
+        color: #1359e5;
+        font-size: 1.5rem;
+        font-weight: 500;
+    }
+    .precio-compra-num{
+        color: #1359e5;
+        display: block;
+        font-family: 'Lato', sans-serif;
+        font-size: 2.5rem;
+        font-weight: bold;
+    }
+    .descripcion-precio{
+        border-bottom: 2px solid black;
+
+    }
+
+    .contenedor-boton{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .boton-comprar{
+        color: #fffefe;
+        width: 100%;
+        height: 60px;
+        padding: 10px;
+        border: none;
+        border-radius: 7px; /* agrega bordes redondeados */            
+        box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6); /* agrega sombra */
+        text-decoration: none;
+        font-family: 'Nunito Sans', sans-serif;
+        background-color: #0077f9;
+    }
+    .especificacion-producto{
+        margin-left: 15%;
+        margin-right: 15%;
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .descripcion-producto-largo{
+        font-size: 16px;
+        line-height: 0.9;
+    }
+
+        
+
+        
+
+        
+
+        
+
+
+
+      
+
+  
+
+
+
