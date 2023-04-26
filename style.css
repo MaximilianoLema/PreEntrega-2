@@ -22,9 +22,14 @@ body{
 
 }
 
-.caja-vacia{
-    width: 100px;
-    height: 100px;
+.sobrenosotros{
+    padding: 7px;
+    background-color: #F9BD1A;
+    border: 1px solid #F9BD1A;
+    text-decoration: none;
+    border-radius: 15px;
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.5);
+    color: black;
 }
 
 .nav-loginsignin{
