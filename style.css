@@ -7,6 +7,7 @@ html{
 body{
     background-color: #F7F7F7;
     overflow-y: scroll;
+    
 }
 /* Header */
 .header{
@@ -450,34 +451,47 @@ body{
     /* BOOTSTRAP STYLES */
 
     .accordion {
-        margin: 15em 11em;
-        --bs-accordion-border-color: #FFD700;
-        --bs-accordion-btn-focus-box-shadow: 0 0 0 0.25rem #FFD700;
+        margin: 2em 11em;
+        --bs-accordion-border-color: hsl(220, 33%, 2%);
+        --bs-accordion-btn-focus-box-shadow: 0 0 0 0.25rem hsl(221, 72%, 62%);
+        
     }
 
     .accordion-button:not(.collapsed){
-        background-color: #ffe9ad;
+        background-color: hsl(221, 72%, 90%);
+        transition: background-color 0.2s ease;
+        box-shadow: inset 0px 3px 3px rgba(0, 0, 0, 0.2);
+            transform: translateY(1px);
     }
 
-    
-    
     .accordion-body{
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
+        font-size: large;
+        font-family: 'Nunito', sans-serif;
+        display: flex;      
     }
 
     .logo-marca{
-        height: 5em;
-        width: 5em;
+        height: 6em;
+        width: 6em;
         margin-right: 1em;
         border-radius: 7px; 
+        border: 1px solid black;
 
     }
-    .marca{
-        margin-right: 1em;
-    }
+    /*  */
     
+    .marcasquetrabajamos{
+        display: flex;
+        justify-content: center;
+        margin-top: 15em;
+        font-weight: bold;
+        font-family: 'Nunito', sans-serif;
+        /* margin-left: 11em; */
+        
+    }
+
+
+   
     
 
         
