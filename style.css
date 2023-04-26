@@ -461,7 +461,7 @@ body{
         background-color: hsl(221, 72%, 90%);
         transition: background-color 0.2s ease;
         box-shadow: inset 0px 3px 3px rgba(0, 0, 0, 0.2);
-            transform: translateY(1px);
+        transform: translateY(1px);
     }
 
     .accordion-body{
@@ -489,6 +489,13 @@ body{
         /* margin-left: 11em; */
         
     }
+
+    @media screen and (max-width: 767px) {
+        .accordion-button {
+          margin-left: 5px;
+          margin-right: 5px;
+        }
+      }
 
 
    
