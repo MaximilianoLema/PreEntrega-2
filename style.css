@@ -6,6 +6,7 @@ html{
 }
 body{
     background-color: #F7F7F7;
+    overflow-y: scroll;
 }
 /* Header */
 .header{
@@ -99,6 +100,7 @@ body{
     left: 0;
     width: 100%;
     z-index: 999;
+    
     }
 
 .nav-links {
@@ -442,7 +444,38 @@ body{
         line-height: 0.9;
     }
 
-        
+    /* BOOTSTRAP STYLES */
+
+    .accordion {
+        margin: 15em 11em;
+        --bs-accordion-border-color: #FFD700;
+        --bs-accordion-btn-focus-box-shadow: 0 0 0 0.25rem #FFD700;
+    }
+
+    .accordion-button:not(.collapsed){
+        background-color: #ffe9ad;
+    }
+
+    
+    
+    .accordion-body{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .logo-marca{
+        height: 5em;
+        width: 5em;
+        margin-right: 1em;
+        border-radius: 7px; 
+
+    }
+    .marca{
+        margin-right: 1em;
+    }
+    
+    
 
         
 
