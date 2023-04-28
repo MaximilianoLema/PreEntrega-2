@@ -609,3 +609,7 @@ body{
     display: flex;
     justify-content: space-around;
 }
+
+.imagen-carrousel{
+    height: 100%;
+}
