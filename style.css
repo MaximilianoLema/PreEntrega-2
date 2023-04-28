@@ -21,6 +21,19 @@ body{
     height: 110px ;
     width: 100%;
     z-index: 999;
+}
+
+.header-sobrenosotros{
+    background-color: #F7F7F7;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* position: fixed; */
+    top: 0;
+    left: 0;
+    height: 200px ;
+    width: 100%;
+    z-index: 999;
 
 }
 
@@ -93,6 +106,7 @@ body{
     
     display: flex;
     justify-content: center;
+    align-items: center;
     background-color: #F7F7F7;
     padding: 20px;
     margin-top: 110px;
@@ -111,17 +125,24 @@ body{
     }
 
 .ul-links {
+    width: 1700px;
+    height: 50px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     list-style: none;
     margin: 0;
     padding: 0;
-    padding-right: 100px;
+    padding-right: 0px;
     margin: 10px;
     }
   
-  .lista-links{
+    
+    
+  
+  
+    .lista-links{
+    
     background-color: hsl(221, 72%, 62%);
     border: 1px solid hsl(221, 72%, 80%);
     padding: 10px;
@@ -483,36 +504,108 @@ body{
     .marcasquetrabajamos{
         display: flex;
         justify-content: center;
-        margin-top: 15em;
+        margin-top: px;
         font-weight: bold;
         font-family: 'Nunito', sans-serif;
         /* margin-left: 11em; */
         
+        
+    } 
+
+    .header-sobrenosotros{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        
+    }
+
+    .contenedor-logo-sobrenosotros {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* margin-top: 20px; */
+    }
+    
+    .logo-sobrenosotros {
+        width: 28em;
     }
 
     @media screen and (max-width: 767px) {
-  .accordion {
-    margin-left: 10px;
-    margin-right: 10px;
-  }
-}   
+
+        .logo{
+        width: 25em;
+        
+        }
+        .accordion {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
     
+    .navbar{
+        padding-inline-start: 0px;
+        padding-inline-end: 0px;
+    }
 
+    .div-footer-izquierda{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        }
 
-   
+    .texto-footer{
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer-sobrenosotros{
+        
+        height: 400px;
+    }
+}
+
+    .listalinks{
+        margin-top: 250px;
+    }
+
+    @media (min-width: 992px){
+    .navbar{
+        padding-inline-start: 190px;
+        padding-inline-end: 190px;
+    }
     
+    .nav-item{
+        padding: 0px 10px;
+       }
+    
+    
+    }
 
+    .navbar{
+        /* margin-top: 200px; */
+        margin-bottom: 2em;
         
+    }
+    .bg-custom{
+        background-color: hsl(221, 72%, 58%);
+    }
 
-        
+   .footer-sobrenosotros{
+    width: 100%;
+    margin: 0px;
+    border: 1px solid black;
+    margin-top: 100px;
+    
+}
 
-        
+.div-footer-centro{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    }
 
-
-
-      
-
-  
-
-
-
+.iconos-redessociales{
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+}
